@@ -1,0 +1,15 @@
+{
+    "name": "issi",
+    "description": "mes reseaux sociaux",
+    "version": "1.0",
+    "background": {
+        "scripts": ["bg.js"],
+        "persistent": true
+    },
+    "browser_action": {
+        "default_popup": "pop.html"
+    },
+    "icons": { "128": "icons/logo.png" },
+    "permissions": ["webNavigation"],
+    "manifest_version": 2
+}

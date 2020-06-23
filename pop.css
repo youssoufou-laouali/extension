@@ -1,0 +1,33 @@
+body {
+    width: 270px;
+    background-image: url(icons/a.jpg);
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+
+.tete {
+    color: blueviolet;
+    text-align: center;
+    font-family: Apple Chancery, sans-serif;
+    border-bottom: blueviolet 2px dotted;
+    margin-bottom: 20px;
+}
+
+.bas {
+    border-left: dotted 10px rgb(0, 174, 255);
+    padding-left: 20px;
+    text-align: center;
+}
+
+img {
+    height: 64px;
+    width: 64px;
+}
+
+a:hover {
+    background-color: rgb(43, 159, 226);
+}
+
+img:hover {
+    height: 67px;
+}
